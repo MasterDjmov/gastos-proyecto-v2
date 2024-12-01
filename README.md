@@ -4,6 +4,10 @@
 -->2- cuando ya este funcionando voy a ver de refactorizar lo que se pueda o este a mi conocimiento.
 -->3- incorporar material ui o tailwind, no los use nunca, debo investigar primero.
 
+# paso n1
+-->>Dentro del paso 1, la idea es armar un primer componente, ejemplo el Login y cargarlo para ir probando si lo trae bien.
+-->>
+
 # Proyecto de prueba usando React:
 La idea armar un pequeño app con react. por ahora usare solo JS en react. 
 

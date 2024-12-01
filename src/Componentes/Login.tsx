@@ -1,7 +1,7 @@
 import React from 'react'
 
-export const Login = () => {
+export const Login: React.FC = () => {
   return (
-    <div>Login</div>
+    <div>Mi Login de ejemplo</div>
   )
 }
