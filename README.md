@@ -98,3 +98,6 @@ npm install react-router-dom
 
 para controlar api usar o fetch o axios
 npm i axios
+
+# Paquete completo
+npm install react-hook-form react-router-dom redux react-redux @reduxjs/toolkit
