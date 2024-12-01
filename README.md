@@ -6,7 +6,7 @@
 
 # paso n1
 -->>Dentro del paso 1, la idea es armar un primer componente, ejemplo el Login y cargarlo para ir probando si lo trae bien.
--->>
+-->>vamos a determinar en Main, un sistema de rutas para poder usar /login, /registro etc, se consigue usando react-router-dom
 
 # Proyecto de prueba usando React:
 La idea armar un pequeño app con react. por ahora usare solo JS en react. 
