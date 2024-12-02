@@ -1,17 +1,22 @@
 # BITÁCORA
+
 - Voy a realizarlo por etapas.
--->1- armar de forma simple, sin dar tanta estructura, asi podre ver si funciona bien.
--->2- cuando ya este funcionando voy a ver de refactorizar lo que se pueda o este a mi conocimiento.
--->3- incorporar material ui o tailwind, no los use nunca, debo investigar primero.
+  -->1- armar de forma simple, sin dar tanta estructura, asi podre ver si funciona bien.
+  -->2- cuando ya este funcionando voy a ver de refactorizar lo que se pueda o este a mi conocimiento.
+  -->3- incorporar material ui o tailwind, no los use nunca, debo investigar primero.
 
 # paso n1
+
 -->>Dentro del paso 1, la idea es armar un primer componente, ejemplo el Login y cargarlo para ir probando si lo trae bien.
 -->>vamos a determinar en Main, un sistema de rutas para poder usar /login, /registro etc, se consigue usando react-router-dom
+-->Actualizando, por tema tiempo usare bootstrap, para que no quede tan feo, luego mientras aprendo material UI lo ire cambiando.
 
 # Proyecto de prueba usando React:
-La idea armar un pequeño app con react. por ahora usare solo JS en react. 
+
+La idea armar un pequeño app con react. por ahora usare solo JS en react.
 
 # Comandos usados:
+
 npm create vite@latest, luego selecciono react y
 por ahora, voy con js + swc. -->ts luego con mas practica.
 
@@ -49,19 +54,18 @@ DER, diagrama entidad relacion -> Base de datos.
 
 Casos de uso: 3 documentos
 
-
 Primer entrega
-22 de noviembre 
+22 de noviembre
 Creación de proyecto
 Diagrama de Flujo
 Diagrama de Flujo: Login.
 Diagrama de Flujo: Carga Gasto.
 Diagrama de flujo: Carga Categoria.
+
 - DER - 3 Casos de uso
 
-
 Paquetes necesarios:
-https://mui.com/material-ui/getting-started/installation/ 
+https://mui.com/material-ui/getting-started/installation/
 
 npm install @mui/material @emotion/react @emotion/styled
 npm install @fontsource/roboto
@@ -74,11 +78,11 @@ npx tailwindcss init
 
 tailwind.config.js
 module.exports = {
-  content: ['./src/**/*.{js,jsx,ts,tsx}'],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
+content: ['./src/**/*.{js,jsx,ts,tsx}'],
+theme: {
+extend: {},
+},
+plugins: [],
 };
 
 en index.html agregar
@@ -104,4 +108,9 @@ para controlar api usar o fetch o axios
 npm i axios
 
 # Paquete completo
+
 npm install react-hook-form react-router-dom redux react-redux @reduxjs/toolkit
+
+bootstrap
+npm i bootstrap@5.3.3
+npm i --save bootstrap @popperjs/core
